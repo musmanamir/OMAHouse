@@ -10,7 +10,7 @@
 
 <!-- Mirrored from www.cliptheme.com/demo/rapido/pages_blank_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Sep 2014 09:43:23 GMT -->
 <head>
-    <title>Medi Care Network</title>
+    <title>@ViewBag.Title</title>
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!-- start: META -->
     <meta charset="utf-8" />
@@ -23,66 +23,66 @@
     <!-- end: META -->
     <!-- start: MAIN CSS -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,200,100,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/iCheck/skins/all.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/animate.css/animate.min.css">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap/css/bootstrap.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/font-awesome/css/font-awesome.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/iCheck/skins/all.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/animate.css/animate.min.css")>
     <!-- end: MAIN CSS -->
     <!-- start: CSS REQUIRED FOR SUBVIEW CONTENTS -->
-    <link rel="stylesheet" href="~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/owl-carousel/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/owl-carousel/owl-carousel/owl.transitions.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/summernote/dist/summernote.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/toastr/toastr.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/DataTables/media/css/DT_bootstrap.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.theme.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.transitions.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/summernote/dist/summernote.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/toastr/toastr.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/DataTables/media/css/DT_bootstrap.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css")>
     <!-- end: CSS REQUIRED FOR THIS SUBVIEW CONTENTS-->
     <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/select2/select2.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/datepicker/css/datepicker.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.css">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/select2/select2.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/datepicker/css/datepicker.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.css")>
     <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
     <!-- start: CORE CSS -->
-    <link rel="stylesheet" href="~/Content/assets/css/styles.css">
-    <link rel="stylesheet" href="~/Content/assets/css/styles-responsive.css">
-    <link rel="stylesheet" href="~/Content/assets/css/plugins.css">
-    <link rel="stylesheet" href="~/Content/assets/css/themes/theme-default.css" type="text/css" id="skin_color">
-    <link rel="stylesheet" href="~/Content/assets/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles-responsive.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/plugins.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/themes/theme-default.css") type="text/css" id="skin_color">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/print.css") type="text/css" media="print" />
     <!-- end: CORE CSS -->
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- start: MAIN JAVASCRIPTS -->
     <!--[if lt IE 9]>
-        <script src="~/Content/assets/plugins/respond.min.js"></script>
-        <script src="~/Content/assets/plugins/excanvas.min.js"></script>
-        <script type="text/javascript" src="~/Content/assets/plugins/jQuery/jquery-1.11.1.min.js"></script>
+        <script src=@Url.Content("~/Content/assets/plugins/respond.min.js")></script>
+        <script src=@Url.Content("~/Content/assets/plugins/excanvas.min.js")></script>
+        <script type="text/javascript" src="~/Content/assets/plugins/jQuery/jquery-1.11.1.min.js")></script>
         <![endif]-->
     <!--[if gte IE 9]><!-->
-    <script src="~/Content/assets/plugins/jQuery/jquery-2.1.1.min.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jQuery/jquery-2.1.1.min.js")></script>
     <!--<![endif]-->
-    <script src="~/Content/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="~/Content/assets/plugins/blockUI/jquery.blockUI.js"></script>
-    <script src="~/Content/assets/plugins/iCheck/jquery.icheck.min.js"></script>
-    <script src="~/Content/assets/plugins/moment/min/moment.min.js"></script>
-    <script src="~/Content/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js"></script>
-    <script src="~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js"></script>
-    <script src="~/Content/assets/plugins/bootbox/bootbox.min.js"></script>
-    <script src="~/Content/assets/plugins/jquery.scrollTo/jquery.scrollTo.min.js"></script>
-    <script src="~/Content/assets/plugins/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
-    <script src="~/Content/assets/plugins/jquery.appear/jquery.appear.js"></script>
-    <script src="~/Content/assets/plugins/jquery-cookie/jquery.cookie.js"></script>
-    <script src="~/Content/assets/plugins/velocity/jquery.velocity.min.js"></script>
-    <script src="~/Content/assets/plugins/TouchSwipe/jquery.touchSwipe.min.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap/js/bootstrap.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/blockUI/jquery.blockUI.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/iCheck/jquery.icheck.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/moment/min/moment.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootbox/bootbox.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.scrollTo/jquery.scrollTo.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ScrollToFixed/jquery-scrolltofixed-min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.appear/jquery.appear.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-cookie/jquery.cookie.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/velocity/jquery.velocity.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/TouchSwipe/jquery.touchSwipe.min.js")></script>
     <!-- end: MAIN JAVASCRIPTS -->
     @RenderSection("styles", required: false)
 </head>
@@ -235,48 +235,48 @@
     </div>
 
     <!-- start: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
-    <script src="~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
-    <script src="~/Content/assets/plugins/jquery-mockjax/jquery.mockjax.js"></script>
-    <script src="~/Content/assets/plugins/toastr/toastr.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
-    <script src="~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="~/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
-    <script src="~/Content/assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
-    <script src="~/Content/assets/plugins/DataTables/media/js/DT_bootstrap.js"></script>
-    <script src="~/Content/assets/plugins/truncate/jquery.truncate.js"></script>
-    <script src="~/Content/assets/plugins/summernote/dist/summernote.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
-    <script src="~/Content/assets/js/subview.js"></script>
-    <script src="~/Content/assets/js/subview-examples.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-mockjax/jquery.mockjax.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/toastr/toastr.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modal.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/DataTables/media/js/jquery.dataTables.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/DataTables/media/js/DT_bootstrap.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/truncate/jquery.truncate.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/summernote/dist/summernote.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/subview.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/subview-examples.js")></script>
     <!-- end: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
     <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
-    <script src="~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js"></script>
-    <script src="~/Content/assets/plugins/autosize/jquery.autosize.min.js"></script>
-    <script src="~/Content/assets/plugins/select2/select2.min.js"></script>
-    <script src="~/Content/assets/plugins/jquery.maskedinput/src/jquery.maskedinput.js"></script>
-    <script src="~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js"></script>
-    <script src="~/Content/assets/plugins/jquery-maskmoney/jquery.maskMoney.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-colorpicker/js/commits.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
-    <script src="~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
-    <script src="~/Content/assets/plugins/ckeditor/ckeditor.js"></script>
-    <script src="~/Content/assets/plugins/ckeditor/adapters/jquery.js"></script>
-    <script src="~/Content/assets/js/form-elements.js"></script>
-    <script src="~/Content/assets/plugins/select2/select2.min.js"></script>
-    <script src="~/Content/assets/js/table-data.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/autosize/jquery.autosize.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/select2/select2.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.maskedinput/src/jquery.maskedinput.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-maskmoney/jquery.maskMoney.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/js/commits.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ckeditor/ckeditor.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ckeditor/adapters/jquery.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/form-elements.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/select2/select2.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/table-data.js")></script>
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
     <!-- start: CORE JAVASCRIPTS  -->
-    <script src="~/Content/assets/js/main.js"></script>
-    <script src="~/Content/assets/js/site.js"></script>
+    <script src=@Url.Content("~/Content/assets/js/main.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/site.js")></script>
     <!-- end: CORE JAVASCRIPTS  -->
     <script>
         jQuery(document).ready(function () {

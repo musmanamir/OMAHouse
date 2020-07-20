@@ -8,7 +8,7 @@
 <!-- start: HEAD -->
 <!-- Mirrored from www.cliptheme.com/demo/rapido/login_login.html?box=register by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Sep 2014 09:43:08 GMT -->
 <head>
-    <title>Rapido - Responsive Admin Template</title>
+    <title>@ViewBag.Title</title>
     <!-- start: META -->
     <meta charset="utf-8" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
@@ -19,16 +19,16 @@
     <meta content="" name="author" />
     <!-- end: META -->
     <!-- start: MAIN CSS -->
-    <link rel="stylesheet" href="~/Content/assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/animate.css/animate.min.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/iCheck/skins/all.css">
-    <link rel="stylesheet" href="~/Content/assets/css/styles.css">
-    <link rel="stylesheet" href="~/Content/assets/css/CustomStyle.css">
-    <link rel="stylesheet" href="~/Content/assets/css/styles-responsive.css">
-    <link rel="stylesheet" href="~/Content/assets/plugins/iCheck/skins/all.css">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap/css/bootstrap.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/font-awesome/css/font-awesome.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/animate.css/animate.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/iCheck/skins/all.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/CustomStyle.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles-responsive.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/iCheck/skins/all.css")>
     <!--[if IE 7]>
-    <link rel="stylesheet" href="~/Content/assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/font-awesome/css/font-awesome-ie7.min.css")>
     <![endif]-->
     <!-- end: MAIN CSS -->
     <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
@@ -44,29 +44,29 @@
     </div>
     <!-- start: MAIN JAVASCRIPTS -->
     <!--[if lt IE 9]>
-    <script src="~/Content/assets/plugins/respond.min.js"></script>
-    <script src="~/Content/assets/plugins/excanvas.min.js"></script>
-    <script type="text/javascript" src="~/Content/assets/plugins/jQuery/jquery-1.11.1.min.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/respond.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/excanvas.min.js")></script>
+    <script type="text/javascript" src=@Url.Content("~/Content/assets/plugins/jQuery/jquery-1.11.1.min.js")></script>
     <![endif]-->
     <!--[if gte IE 9]><!-->
-    <script src="~/Content/assets/plugins/jQuery/jquery-2.1.1.min.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jQuery/jquery-2.1.1.min.js")></script>
     <!--<![endif]-->
-    <script src="~/Content/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
-    <script src="~/Content/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="~/Content/assets/plugins/iCheck/jquery.icheck.min.js"></script>
-    <script src="~/Content/assets/plugins/jquery.transit/jquery.transit.js"></script>
-    <script src="~/Content/assets/plugins/TouchSwipe/jquery.touchSwipe.min.js"></script>
-    <script src="~/Content/assets/js/main.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap/js/bootstrap.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/iCheck/jquery.icheck.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.transit/jquery.transit.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/TouchSwipe/jquery.touchSwipe.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/main.js")></script>
     <!-- end: MAIN JAVASCRIPTS -->
     <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
-    <script src="~/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/Content/assets/js/login.js"></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/login.js")></script>
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
     <script>
-			jQuery(document).ready(function() {
-				Main.init();
-				Login.init();
-			});
+        jQuery(document).ready(function () {
+            Main.init();
+            Login.init();
+        });
     </script>
 </body>
 <!-- end: BODY -->
