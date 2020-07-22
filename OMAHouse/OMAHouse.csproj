@@ -515,6 +515,7 @@
     <Content Include="Content\assets\plugins\weather-icons\font\weathericons-regular-webfont.ttf" />
     <Content Include="Content\assets\plugins\weather-icons\font\weathericons-regular-webfont.woff" />
     <Content Include="Content\assets\plugins\weather-icons\font\weathericons-regular-webfontd41d.eot" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
