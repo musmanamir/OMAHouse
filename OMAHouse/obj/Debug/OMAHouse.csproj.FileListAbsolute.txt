@@ -154,3 +154,4 @@ C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse\bin\Microsoft.CodeDom.Provider
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse\obj\Debug\OMAHouse.csproj.CopyComplete
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse\obj\Debug\OMAHouse.dll
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse\obj\Debug\OMAHouse.pdb
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse\obj\Debug\OMAHouse.csprojAssemblyReference.cache
