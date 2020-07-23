@@ -7,3 +7,11 @@ E:\Projects\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.pdb
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.csproj.CoreCompileInputs.cache
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.dll
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.pdb
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.deps.json
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.dll
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.pdb
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.csprojAssemblyReference.cache
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.AssemblyInfoInputs.cache
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.AssemblyInfo.cs
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.dll
+C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.pdb

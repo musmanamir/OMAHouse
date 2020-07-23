@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace OMAHouse.API
 {
@@ -68,45 +69,43 @@ namespace OMAHouse.API
             //                      });
             //});
 
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo
-            //    {
-            //        Version = "v1",
-            //        Title = "Back 2 Work API",
-            //        Description = "Back 2 Work ASP.NET Core Web API",
-            //        //TermsOfService = new Uri("https://example.com/terms"),
-            //        Contact = new OpenApiContact
-            //        {
-            //            Name = "Usman Amir",
-            //            Email = "usman.amir@aciano.net",
-            //            //Url = new Uri("https://twitter.com/spboyer"),
-            //        },
-            //        License = new OpenApiLicense
-            //        {
-            //            Name = "Aciano Technologies",
-            //            Url = new Uri("http://aciano.net/"),
-            //        }
-            //    });
-            //    c.AddSecurityDefinition("Bearer", //Name the security scheme
-            //        new OpenApiSecurityScheme
-            //        {
-            //            Description = "JWT Authorization header using the Bearer scheme.",
-            //            Type = SecuritySchemeType.Http, //We set the scheme type to http since we're using bearer authentication
-            //            Scheme = "bearer" //The name of the HTTP Authorization scheme to be used in the Authorization header. In this case "bearer".
-            //        });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "OMA House API",
+                    Description = "OMA House ASP.NET Core Web API",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Usman Amir",
+                        Email = "usman_amir@outlook.com",                        
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Usman Amir",
+                        Url = new Uri("http://www.usmanamir.com/"),
+                    }
+                });
+                //c.AddSecurityDefinition("Bearer", //Name the security scheme
+                //    new OpenApiSecurityScheme
+                //    {
+                //        Description = "JWT Authorization header using the Bearer scheme.",
+                //        Type = SecuritySchemeType.Http, //We set the scheme type to http since we're using bearer authentication
+                //        Scheme = "bearer" //The name of the HTTP Authorization scheme to be used in the Authorization header. In this case "bearer".
+                //    });
 
-            //    c.AddSecurityRequirement(new OpenApiSecurityRequirement{
-            //        {
-            //            new OpenApiSecurityScheme{
-            //                Reference = new OpenApiReference{
-            //                    Id = "Bearer", //The name of the previously defined security scheme.
-            //                    Type = ReferenceType.SecurityScheme
-            //                }
-            //            }, new List<string>()
-            //        }
-            //    });
-            //});
+                //c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+                //    {
+                //        new OpenApiSecurityScheme{
+                //            Reference = new OpenApiReference{
+                //                Id = "Bearer", //The name of the previously defined security scheme.
+                //                Type = ReferenceType.SecurityScheme
+                //            }
+                //        }, new List<string>()
+                //    }
+                //});
+            });
 
             //if (HangFireEnabled)
             //    ConfigureHangfire(services);
@@ -250,15 +249,14 @@ namespace OMAHouse.API
 
             //app.UseElmah();
 
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
-            //app.UseSwagger();
+            //Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
 
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
-            // specifying the Swagger JSON endpoint.
-            //app.UseSwaggerUI(c =>
-            //{
-            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Back 2 Work V1");
-            //});
+            //Enable middleware to serve swagger - ui(HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "OMA House V1");
+            });
 
             //if (HangFireEnabled)
             //    StartHangFireJobs(app, serviceProvider);

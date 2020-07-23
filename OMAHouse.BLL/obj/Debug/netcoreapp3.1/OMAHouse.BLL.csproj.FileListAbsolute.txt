@@ -6,3 +6,4 @@ E:\Projects\OMAHouse\OMAHouse.BLL\obj\Debug\netcoreapp3.1\OMAHouse.BLL.AssemblyI
 E:\Projects\OMAHouse\OMAHouse.BLL\obj\Debug\netcoreapp3.1\OMAHouse.BLL.AssemblyInfo.cs
 E:\Projects\OMAHouse\OMAHouse.BLL\obj\Debug\netcoreapp3.1\OMAHouse.BLL.dll
 E:\Projects\OMAHouse\OMAHouse.BLL\obj\Debug\netcoreapp3.1\OMAHouse.BLL.pdb
+E:\Projects\OMAHouse\OMAHouse.BLL\obj\Debug\netcoreapp3.1\OMAHouse.BLL.csprojAssemblyReference.cache
