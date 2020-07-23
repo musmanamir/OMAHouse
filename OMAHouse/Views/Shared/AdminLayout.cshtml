@@ -1,0 +1,295 @@
+﻿@{
+    Layout = null;
+    ////@model IEnumerable<MedicareNetworksCommon.Models.Dashboard.Module>
+    //Tuple<List<MedicareNetworksCommon.Models.Dashboard.Module>, List<MedicareNetworksCommon.Models.Dashboard.SubModule>> data = ViewData["Module"] as Tuple<List<MedicareNetworksCommon.Models.Dashboard.Module>, List<MedicareNetworksCommon.Models.Dashboard.SubModule>>;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<!-- Mirrored from www.cliptheme.com/demo/rapido/pages_blank_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Sep 2014 09:43:23 GMT -->
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- start: META -->
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,200,100,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap/css/bootstrap.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/font-awesome/css/font-awesome.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/iCheck/skins/all.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/animate.css/animate.min.css")>
+    <!-- end: MAIN CSS -->
+    <!-- start: CSS REQUIRED FOR SUBVIEW CONTENTS -->
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.theme.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.transitions.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/summernote/dist/summernote.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/toastr/toastr.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/DataTables/media/css/DT_bootstrap.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css")>
+    <!-- end: CSS REQUIRED FOR THIS SUBVIEW CONTENTS-->
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/select2/select2.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/datepicker/css/datepicker.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.css")>
+    <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- start: CORE CSS -->
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/styles-responsive.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/plugins.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/themes/theme-default.css") type="text/css" id="skin_color">
+    <link rel="stylesheet" href=@Url.Content("~/Content/assets/css/print.css") type="text/css" media="print" />
+    <!-- end: CORE CSS -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- start: MAIN JAVASCRIPTS -->
+    <!--[if lt IE 9]>
+        <script src=@Url.Content("~/Content/assets/plugins/respond.min.js")></script>
+        <script src=@Url.Content("~/Content/assets/plugins/excanvas.min.js")></script>
+        <script type="text/javascript" src="~/Content/assets/plugins/jQuery/jquery-1.11.1.min.js")></script>
+        <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src=@Url.Content("~/Content/assets/plugins/jQuery/jquery-2.1.1.min.js")></script>
+    <!--<![endif]-->
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap/js/bootstrap.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/blockUI/jquery.blockUI.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/iCheck/jquery.icheck.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/moment/min/moment.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootbox/bootbox.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.scrollTo/jquery.scrollTo.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ScrollToFixed/jquery-scrolltofixed-min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.appear/jquery.appear.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-cookie/jquery.cookie.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/velocity/jquery.velocity.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/TouchSwipe/jquery.touchSwipe.min.js")></script>
+    <!-- end: MAIN JAVASCRIPTS -->
+    @RenderSection("styles", required: false)
+</head>
+<!-- end: HEAD -->
+<!-- start: BODY -->
+<body class="footer-fixed" style="background-color: white;">
+
+    <div class="main-wrapper">
+        <!-- start: TOPBAR -->
+        <header class="topbar navbar navbar-inverse navbar-fixed-top inner">
+            <!-- start: TOPBAR CONTAINER -->
+            <div class="container">
+                <div class="navbar-header" style="width: 100%;">
+                    <a class="sb-toggle-left hidden-md hidden-lg" href="#main-navbar">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <!-- start: LOGO -->
+                    <a class="navbar-brand" href="/Admin/Dashboard">
+                        <img src="~/Content/assets/images/logo.png" alt="Rapido" />
+                    </a>
+                    <!-- end: LOGO -->
+                    @*@if (Session["PendingInvoices"] != null)
+                        {
+                            <a href="/Reports/PendingInvoiceReport" style="float: right; margin-right: 10px; color: white;">
+                                Pending Payments: @Session["PendingInvoices"]
+                            </a>
+                        }*@
+                </div>
+            </div>
+            <!-- end: TOPBAR CONTAINER -->
+        </header>
+        <!-- end: TOPBAR -->
+        <!-- start: PAGESLIDE LEFT -->
+        <a class="closedbar inner hidden-sm hidden-xs" href="#"></a>
+        <nav id="pageslide-left" class="pageslide inner">
+            <div class="navbar-content">
+                <!-- start: SIDEBAR -->
+                <div class="main-navigation left-wrapper transition-left">
+                    <div class="navigation-toggler hidden-sm hidden-xs">
+                        <a href="#main-navbar" class="sb-toggle-left"></a>
+                    </div>
+                    <div class="user-profile border-top padding-horizontal-10 block">
+                        @*<div class="inline-block">
+
+                            </div>*@
+                        <div class="inline-block">
+                            <h5 class="no-margin">Welcome </h5>
+                            <h4 class="no-margin">@*@Session["UserName"]*@ </h4>
+                        </div>
+                    </div>
+                    <!-- start: MAIN NAVIGATION MENU -->
+                    <ul class="main-navigation-menu">
+                        <li class="active open">
+                            <a href="~/Admin/DashBoard"><i class="fa fa-home"></i> <span class="title"> Dashboard </span><span class="label label-default pull-right ">LABEL</span> </a>
+                        </li>
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-folder-open"></i> <span class="title"> Products </span><i class="icon-arrow"></i> <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li>
+                                    <a href="~/AdminProduct/ListProducts">
+                                        All Products
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="~/AdminProduct/InsertProduct">
+                                        Add Product
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-folder-open"></i> <span class="title"> Category </span><i class="icon-arrow"></i> <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li>
+                                    <a href="~/AdminCategory/ListCategories">
+                                        All Category
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="~/AdminCategory/InsertCategory">
+                                        Add Category
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-folder-open"></i> <span class="title"> Gender </span><i class="icon-arrow"></i> <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu" style="display: none;">
+                                <li>
+                                    <a href="~/AdminGender/ListGender">
+                                        All Gender
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="~/AdminGender/InsertGender">
+                                        Add Gender
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- end: MAIN NAVIGATION MENU -->
+                </div>
+                <!-- end: SIDEBAR -->
+            </div>
+            @*				<div class="slide-tools">
+                    <div class="col-xs-6 text-left no-padding">
+                        <a class="btn btn-sm status" href="#">
+                            Status <i class="fa fa-dot-circle-o text-green"></i> <span>Online</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 text-right no-padding">
+                        <a class="btn btn-sm log-out text-right" href="/Account/Index">
+                            <i class="fa fa-power-off"></i> Log Out
+                        </a>
+                    </div>
+                </div>*@
+        </nav>
+        <!-- end: PAGESLIDE LEFT -->
+        <!-- start: MAIN CONTAINER -->
+        <div class="main-container inner">
+            <!-- start: PAGE -->
+            <div class="main-content">
+                <div class="container">
+                    @RenderBody()
+                </div>
+                <!-- end: PAGE -->
+            </div>
+            <!-- end: MAIN CONTAINER -->
+            <!-- start: FOOTER -->
+        </div>
+        @*<footer class="inner">
+                <div class="footer-inner">
+                    <div class="pull-left">
+                        2015-2016 &copy; Medi Care Network.
+                    </div>
+                    <div class="pull-right">
+                        <span class="go-top"><i class="fa fa-chevron-up"></i></span>
+                    </div>
+                </div>
+            </footer>*@
+
+    </div>
+
+    <!-- start: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
+    <script src=@Url.Content("~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-mockjax/jquery.mockjax.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/toastr/toastr.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modal.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/fullcalendar/fullcalendar/fullcalendar.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-select/bootstrap-select.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-validation/dist/jquery.validate.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/DataTables/media/js/jquery.dataTables.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/DataTables/media/js/DT_bootstrap.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/truncate/jquery.truncate.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/summernote/dist/summernote.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/subview.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/subview-examples.js")></script>
+    <!-- end: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
+    <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/autosize/jquery.autosize.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/select2/select2.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery.maskedinput/src/jquery.maskedinput.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jquery-maskmoney/jquery.maskMoney.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpicker/js/commits.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/jQuery-Tags-Input/jquery.tagsinput.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ckeditor/ckeditor.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/ckeditor/adapters/jquery.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/form-elements.js")></script>
+    <script src=@Url.Content("~/Content/assets/plugins/select2/select2.min.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/table-data.js")></script>
+    <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- start: CORE JAVASCRIPTS  -->
+    <script src=@Url.Content("~/Content/assets/js/main.js")></script>
+    <script src=@Url.Content("~/Content/assets/js/site.js")></script>
+    <!-- end: CORE JAVASCRIPTS  -->
+    <script>
+        jQuery(document).ready(function () {
+            Main.init();
+            SVExamples.init();
+            FormElements.init();
+            TableData.init();
+        });
+    </script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+<!-- end: BODY -->
+
+</html>

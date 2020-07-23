@@ -133,19 +133,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usman.amir\\.nuget\\packages\\": {}
+    "C:\\Users\\muham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\OMAHouse\\OMAHouse.API\\OMAHouse.API.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Documents\\GitHub\\OMAHouse\\OMAHouse.API\\OMAHouse.API.csproj",
       "projectName": "OMAHouse.API",
-      "projectPath": "E:\\Projects\\OMAHouse\\OMAHouse.API\\OMAHouse.API.csproj",
-      "packagesPath": "C:\\Users\\usman.amir\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\OMAHouse\\OMAHouse.API\\obj\\",
+      "projectPath": "C:\\Users\\muham\\Documents\\GitHub\\OMAHouse\\OMAHouse.API\\OMAHouse.API.csproj",
+      "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\muham\\Documents\\GitHub\\OMAHouse\\OMAHouse.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usman.amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -200,7 +200,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
