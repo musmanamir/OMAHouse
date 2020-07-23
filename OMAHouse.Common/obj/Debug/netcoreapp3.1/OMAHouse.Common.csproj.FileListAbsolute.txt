@@ -1,9 +1,9 @@
 E:\Projects\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.deps.json
 E:\Projects\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.dll
+E:\Projects\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.pdb
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.csprojAssemblyReference.cache
+E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.csproj.CoreCompileInputs.cache
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.AssemblyInfoInputs.cache
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.AssemblyInfo.cs
-E:\Projects\OMAHouse\OMAHouse.Common\bin\Debug\netcoreapp3.1\OMAHouse.Common.pdb
-E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.csproj.CoreCompileInputs.cache
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.dll
 E:\Projects\OMAHouse\OMAHouse.Common\obj\Debug\netcoreapp3.1\OMAHouse.Common.pdb
