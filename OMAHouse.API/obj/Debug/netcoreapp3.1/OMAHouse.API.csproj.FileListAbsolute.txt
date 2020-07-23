@@ -16,7 +16,7 @@ E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\staticwebassets\OMAHou
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.dll
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.pdb
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.genruntimeconfig.cache
-<<<<<<< HEAD
+
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -35,7 +35,7 @@ C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OM
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.RazorTargetAssemblyInfo.cache
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.dll
 C:\Users\muham\Documents\GitHub\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.pdb
-=======
+
 E:\Projects\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 E:\Projects\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 E:\Projects\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -44,4 +44,3 @@ E:\Projects\OMAHouse\OMAHouse.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.csproj.CoreCompileInputs.cache
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.MvcApplicationPartsAssemblyInfo.cs
 E:\Projects\OMAHouse\OMAHouse.API\obj\Debug\netcoreapp3.1\OMAHouse.API.MvcApplicationPartsAssemblyInfo.cache
->>>>>>> 55747c4cf701f87dd42591bcee2c83101ea15d2f
