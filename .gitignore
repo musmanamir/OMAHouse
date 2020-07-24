@@ -339,8 +339,8 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-.vs/OMAHouse/v16/.suo
-.vs/OMAHouse/v16/.suo
+*.vs/OMAHouse/v16/.suo
+/.vs/OMAHouse/v16/.suo
 .vs/OMAHouse/v16/.suo
 OMAHouse.API/bin/Debug/netcoreapp3.1/OMAHouse.API.dll
 *.config
