@@ -150,7 +150,6 @@ E:\Projects\OMAHouse\OMAHouse\bin\System.Web.WebPages.Razor.xml
 E:\Projects\OMAHouse\OMAHouse\bin\Newtonsoft.Json.xml
 E:\Projects\OMAHouse\OMAHouse\bin\Antlr3.Runtime.pdb
 E:\Projects\OMAHouse\OMAHouse\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Projects\OMAHouse\OMAHouse\obj\Debug\OMAHouse.csprojAssemblyReference.cache
 E:\Projects\OMAHouse\OMAHouse\obj\Debug\OMAHouse.csproj.CoreCompileInputs.cache
 E:\Projects\OMAHouse\OMAHouse\obj\Debug\OMAHouse.csproj.CopyComplete
 E:\Projects\OMAHouse\OMAHouse\obj\Debug\OMAHouse.dll
